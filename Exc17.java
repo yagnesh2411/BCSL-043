@@ -8,10 +8,12 @@ public class Exc17 {
             int numerator = scanner.nextInt();
             System.out.print("Enter denominator: ");
             int denominator = scanner.nextInt();
-           try {
+        try {
             int result = numerator / denominator;
             System.out.println("Result: " + result);
-           }  catch (ArrayIndexOutOfBoundsException e) {
+            } 
+            catch (ArrayIndexOutOfBoundsException e) 
+        {
             System.out.println("Error: Attempted to access an index that is out of bounds.");
             System.out.println("Please ensure you are accessing valid indices within the array.");
         }
